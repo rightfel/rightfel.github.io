@@ -10,7 +10,9 @@ pub fn Resume() -> impl IntoView {
               Download Resume
               <a
                 class="_link"
-                href="./assets/Hanifan Rizki Nurahman.pdf"
+                data-trunk
+                rel="pdf"
+                href="/assets/Hanifan Rizki Nurahman.pdf"
                 target="_blank"
                 >[link]</a
               ><br /><br />
