@@ -8,13 +8,13 @@ pub fn NavigationBar() -> impl IntoView {
             <nav class="header-nav" aria-label="site menu">
               <ol>
                 <li>
-                  <a class="_text" href="/">"Home"</a>
+                  <a class="_text" href="#">"Home"</a>
                 </li>
                 <li>
-                  <a class="_text" href="/resume">"Resume"</a>
+                  <a class="_text" href="#/resume">"Resume"</a>
                 </li>
                 <li>
-                  <a class="_text" href="/projects">"Projects"</a>
+                  <a class="_text" href="#/projects">"Projects"</a>
                 </li>
               </ol>
             </nav>
