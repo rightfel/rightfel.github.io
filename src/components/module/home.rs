@@ -1,7 +1,12 @@
+use leptos::logging::log;
 use leptos::*;
 
 #[component]
 pub fn Home() -> impl IntoView {
+    on_cleanup(|| {
+        log!("cleaning up <Home/>");
+    });
+
     view! {
           <main class="main home-frame">
             //content box

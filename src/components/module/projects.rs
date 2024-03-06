@@ -1,7 +1,12 @@
+use leptos::logging::log;
 use leptos::*;
 
 #[component]
 pub fn Projects() -> impl IntoView {
+    on_cleanup(|| {
+        log!("cleaning up <Projects/>");
+    });
+
     view! {
         //content
         <main class="main projects-frame">
